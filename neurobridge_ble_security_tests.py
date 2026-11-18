@@ -278,7 +278,7 @@ async def test_ble_scanning():
             "BLE-01",
             "BLE Passive Scanning",
             "FAIL",
-            f"{type(error).name}: {error}",
+            f"{type(error).__name__}: {error}",
         )
 
     return list(all_devices.values())
@@ -457,7 +457,7 @@ async def test_gatt_inspection():
             "BLE-05",
             "Read-Only GATT Inspection",
             "FAIL",
-            f"{type(error).name}: {error}",
+            f"{type(error).__name__}: {error}",
         )
 
 
@@ -560,7 +560,7 @@ def test_sensor_data_validation():
             "DATA-01",
             "Sensor Data Validation",
             "FAIL",
-            f"{type(error).name}: {error}",
+            f"{type(error).__name__}: {error}",
         )
 
 
@@ -676,7 +676,7 @@ def test_timestamp_validation():
             "DATA-03",
             "Timestamp Validation",
             "FAIL",
-            f"{type(error).name}: {error}",
+            f"{type(error).__name__}: {error}",
         )
 
 
@@ -782,7 +782,7 @@ def test_aes_ccm():
             "SEC-02",
             "AES-CCM Software Self-Test",
             "FAIL",
-            f"{type(error).name}: {error}",
+            f"{type(error).__name__}: {error}",
         )
 
 
@@ -851,7 +851,7 @@ def test_aes_ccm_authentication():
             "SEC-03",
             "AES-CCM Authentication Self-Test",
             "FAIL",
-            f"{type(error).name}: {error}",
+            f"{type(error).__name__}: {error}",
         )
 
 
@@ -890,7 +890,7 @@ def test_python_randomness():
             "SEC-04",
             "Python Secure Randomness API",
             "FAIL",
-            f"{type(error).name}: {error}",
+            f"{type(error).__name__}: {error}",
         )
 
 
