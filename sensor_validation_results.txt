@@ -1,0 +1,8 @@
+Rows: 30246
+Columns: 37
+EEG channels: 28
+EOG channels: 4
+Accelerometer channels: 3
+Class labels: [np.int64(-1), np.int64(0), np.int64(1), np.int64(2)]
+
+PASS: Sensor data validation successful.

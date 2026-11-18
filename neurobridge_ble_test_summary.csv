@@ -1,0 +1,27 @@
+test_id,test_name,status,details,timestamp_utc
+ENV-01,Python Environment,PASS,Python 3.13.15 on Windows,2026-11-05T05:32:54.959699+00:00
+ENV-02,Bleak Package Availability,PASS,Bleak is importable; version: 3.0.2,2026-11-05T05:32:54.979997+00:00
+ENV-03,Cryptography Package Availability,PASS,Cryptography version: 50.0.2,2026-11-05T05:32:54.982461+00:00
+BLE-01,BLE Passive Scanning,PASS,Completed 3 scan rounds. Discovered 4 unique device(s).,2026-11-05T05:33:25.229903+00:00
+BLE-02,BLE Device Discovery,PASS,4 BLE device(s) discovered.,2026-11-05T05:33:25.232818+00:00
+BLE-03,Advertisement Structure,PASS,4 advertisement record(s) contained the expected metadata fields.,2026-11-05T05:33:25.233176+00:00
+BLE-04,Service UUID Format,PASS,3 advertised service UUID(s) checked.,2026-11-05T05:33:25.233486+00:00
+BLE-05,Read-Only GATT Inspection,NOT TESTED,No authorized target address was configured. No device was connected.,2026-11-05T05:33:25.233724+00:00
+DATA-01,Sensor Data Schema Validation,PASS,All 8 expected columns found. Rows: 5.,2026-11-05T05:33:25.236158+00:00
+DATA-02,Sensor Numeric Data Validation,PASS,All 5 rows contain finite numeric values in the required sensor columns.,2026-11-05T05:33:25.236474+00:00
+DATA-03,Timestamp Validation,PASS,"5 Numeric timestamps are valid, ordered, and unique.",2026-11-05T05:33:25.237382+00:00
+SEC-01,SHA-256 Integrity Self-Test,PASS,"Identical data produced matching hashes, and modified data produced a different hash. Original SHA-256: a9eaa54233a27e75752e77742a219f1663081af3cbc9c6ce223c2ea8fe17854c",2026-11-05T05:33:25.242778+00:00
+SEC-02,AES-CCM Software Self-Test,PASS,AES-CCM encryption and decryption succeeded using a temporary software-generated key.,2026-11-05T05:33:25.364786+00:00
+SEC-03,AES-CCM Authentication Self-Test,PASS,Modified ciphertext was rejected by the software AES-CCM authentication check.,2026-11-05T05:33:25.365491+00:00
+SEC-04,Python Secure Randomness API,PASS,Python secrets API generated two 32-byte samples.,2026-11-05T05:33:25.365885+00:00
+HW-01,BLE Pairing Method Verification,NOT TESTED,Requires the actual nRF52840 device and firmware.,2026-11-05T05:33:25.366275+00:00
+HW-02,LE Secure Connections Verification,NOT TESTED,Requires inspection of the actual pairing procedure.,2026-11-05T05:33:25.366561+00:00
+HW-03,MITM Protection Verification,NOT TESTED,Requires a controlled pairing test with the configured IO capabilities.,2026-11-05T05:33:25.366793+00:00
+HW-04,BLE Link Encryption Verification,NOT TESTED,Requires a real BLE connection and verification of its encryption state.,2026-11-05T05:33:25.367069+00:00
+HW-05,Bonding and Persistent Key Verification,NOT TESTED,Requires testing the actual device's bonding and key-storage behavior.,2026-11-05T05:33:25.367308+00:00
+HW-06,Unauthorized Device Rejection,NOT TESTED,Requires the actual firmware and an authorized test setup.,2026-11-05T05:33:25.367534+00:00
+HW-07,GATT Permission Enforcement,NOT TESTED,Requires testing configured read/write permissions on the real device.,2026-11-05T05:33:25.367746+00:00
+HW-08,Connection Interruption and Recovery,NOT TESTED,Requires a real BLE device and application-level reconnection testing.,2026-11-05T05:33:25.367966+00:00
+HW-09,Sensor Data Continuity,NOT TESTED,Requires real sensor streams and sequence/timestamp verification.,2026-11-05T05:33:25.368178+00:00
+HW-10,Firmware Security Configuration,NOT TESTED,Requires inspection of the actual firmware configuration and build.,2026-11-05T05:33:25.368379+00:00
+HW-11,Hardware Key Management,NOT TESTED,Requires verification of the actual device's key generation and storage.,2026-11-05T05:33:25.368599+00:00

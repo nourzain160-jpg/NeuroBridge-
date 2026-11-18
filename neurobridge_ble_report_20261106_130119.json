@@ -1,0 +1,113 @@
+{
+    "project": "NeuroBridge",
+    "tool": "NeuroBridge BLE Test Suite",
+    "run_at_utc": "2026-11-06T11:01:07.029494+00:00",
+    "environment": {
+        "os": "Windows-10-10.0.19045-SP0",
+        "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+        "bleak_version": "unknown"
+    },
+    "scope_note": "This tool does not establish BLE authentication, MITM protection, bonding, or encryption status. These require device/stack-specific verification. No hardware-specific result is inferred from nearby devices.",
+    "scan": {
+        "test_id": "BLE-01",
+        "status": "PASS",
+        "started_at_utc": "2026-11-06T11:01:07.030003+00:00",
+        "timeout_seconds": 12,
+        "devices": [
+            {
+                "name": "[TV] Samsung 7 Series (55)",
+                "address": "24:FC:E5:FA:46:D1",
+                "rssi_dbm": -94,
+                "advertised_uuids": [],
+                "manufacturer_data": {
+                    "117": "420401016124fce5fa46d126fce5fa46d00b4c65e9353781"
+                },
+                "service_data": {},
+                "tx_power": null,
+                "details": "RawAdvData(adv=<winrt.windows.devices.bluetooth.advertisement.BluetoothLEAdvertisementReceivedEventArgs object at 0x000002584A7A0110>, scan=None)"
+            },
+            {
+                "name": "Unknown",
+                "address": "10:2B:41:44:F7:5D",
+                "rssi_dbm": -102,
+                "advertised_uuids": [],
+                "manufacturer_data": {
+                    "117": "4204018066102b4144f75d122b4144f75c013d66635d8603"
+                },
+                "service_data": {},
+                "tx_power": null,
+                "details": "RawAdvData(adv=<winrt.windows.devices.bluetooth.advertisement.BluetoothLEAdvertisementReceivedEventArgs object at 0x000002584A7A0C70>, scan=None)"
+            },
+            {
+                "name": "Unknown",
+                "address": "5B:E2:4D:C2:05:FC",
+                "rssi_dbm": -64,
+                "advertised_uuids": [],
+                "manufacturer_data": {
+                    "76": "1005371c83821f"
+                },
+                "service_data": {},
+                "tx_power": 8,
+                "details": "RawAdvData(adv=<winrt.windows.devices.bluetooth.advertisement.BluetoothLEAdvertisementReceivedEventArgs object at 0x000002584A7A0D10>, scan=None)"
+            },
+            {
+                "name": "Unknown",
+                "address": "FB:F2:0F:50:93:F1",
+                "rssi_dbm": -95,
+                "advertised_uuids": [],
+                "manufacturer_data": {
+                    "76": "12020002"
+                },
+                "service_data": {},
+                "tx_power": null,
+                "details": "RawAdvData(adv=<winrt.windows.devices.bluetooth.advertisement.BluetoothLEAdvertisementReceivedEventArgs object at 0x000002584A7A0C30>, scan=None)"
+            },
+            {
+                "name": "Unknown",
+                "address": "33:1B:A0:7B:01:0A",
+                "rssi_dbm": -99,
+                "advertised_uuids": [],
+                "manufacturer_data": {},
+                "service_data": {
+                    "0000fcf1-0000-1000-8000-00805f9b34fb": "042cb5bfdaa43b26b5d5af700975534c76dfeb"
+                },
+                "tx_power": null,
+                "details": "RawAdvData(adv=<winrt.windows.devices.bluetooth.advertisement.BluetoothLEAdvertisementReceivedEventArgs object at 0x000002584A7A0D50>, scan=None)"
+            },
+            {
+                "name": "Unknown",
+                "address": "36:E7:FF:D2:45:88",
+                "rssi_dbm": -96,
+                "advertised_uuids": [],
+                "manufacturer_data": {},
+                "service_data": {
+                    "0000fef3-0000-1000-8000-00805f9b34fb": "4a17233156555111322a18fd440d9e792b0de5218d285b6a474500"
+                },
+                "tx_power": null,
+                "details": "RawAdvData(adv=<winrt.windows.devices.bluetooth.advertisement.BluetoothLEAdvertisementReceivedEventArgs object at 0x000002584A7A0ED0>, scan=None)"
+            },
+            {
+                "name": "Unknown",
+                "address": "F4:A2:F5:65:96:82",
+                "rssi_dbm": -63,
+                "advertised_uuids": [],
+                "manufacturer_data": {
+                    "76": "12020000"
+                },
+                "service_data": {},
+                "tx_power": null,
+                "details": "RawAdvData(adv=<winrt.windows.devices.bluetooth.advertisement.BluetoothLEAdvertisementReceivedEventArgs object at 0x000002584A7A0F10>, scan=None)"
+            }
+        ],
+        "error": null,
+        "finished_at_utc": "2026-11-06T11:01:19.357919+00:00"
+    },
+    "connection_tests": {
+        "connection_status": "NOT TESTED",
+        "gatt_status": "NOT TESTED",
+        "read_tests": [],
+        "notification_tests": [],
+        "reconnect_status": "NOT TESTED",
+        "reason": "No NeuroBridge BLE device address was supplied."
+    }
+}

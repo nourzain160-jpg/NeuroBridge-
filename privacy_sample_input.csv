@@ -1,0 +1,4 @@
+participant_id,name,email,phone,timestamp,emg_biceps,emg_triceps,imu_angle,class
+SUBJECT001,Synthetic Person A,personA@example.test,000000001,0.010,0.45,0.20,13.1,0
+SUBJECT001,Synthetic Person A,personA@example.test,000000001,0.020,0.51,0.23,14.0,1
+SUBJECT002,Synthetic Person B,personB@example.test,000000002,0.030,0.63,0.28,15.2,1

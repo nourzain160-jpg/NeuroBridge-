@@ -1,0 +1,8 @@
+Total records: 30246
+Missing/non-numeric timestamps: 0
+Non-finite timestamps: 0
+Duplicate timestamps: 27011
+Out-of-order intervals: 0
+Equal consecutive timestamps: 27011
+
+REVIEW: Timestamps are ordered but contain duplicates.

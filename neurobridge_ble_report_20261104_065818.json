@@ -1,0 +1,43 @@
+{
+    "project": "NeuroBridge",
+    "tool": "NeuroBridge BLE Test Suite",
+    "run_at_utc": "2026-11-04T04:58:06.497812+00:00",
+    "environment": {
+        "os": "Windows-10-10.0.19045-SP0",
+        "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+        "bleak_version": "unknown"
+    },
+    "scope_note": "This tool does not establish BLE authentication, MITM protection, bonding, or encryption status. These require device/stack-specific verification. No hardware-specific result is inferred from nearby devices.",
+    "scan": {
+        "test_id": "BLE-01",
+        "status": "PASS",
+        "started_at_utc": "2026-11-04T04:58:06.498282+00:00",
+        "timeout_seconds": 12,
+        "devices": [
+            {
+                "name": "Unknown",
+                "address": "57:FF:FD:FC:9F:48",
+                "rssi_dbm": -91,
+                "advertised_uuids": [
+                    "0000fd69-0000-1000-8000-00805f9b34fb"
+                ],
+                "manufacturer_data": {},
+                "service_data": {
+                    "0000fd69-0000-1000-8000-00805f9b34fb": "108a5e2ce376653180de7b1d3350001e69739cdc"
+                },
+                "tx_power": null,
+                "details": "RawAdvData(adv=<winrt.windows.devices.bluetooth.advertisement.BluetoothLEAdvertisementReceivedEventArgs object at 0x000001F795180110>, scan=None)"
+            }
+        ],
+        "error": null,
+        "finished_at_utc": "2026-11-04T04:58:18.628808+00:00"
+    },
+    "connection_tests": {
+        "connection_status": "NOT TESTED",
+        "gatt_status": "NOT TESTED",
+        "read_tests": [],
+        "notification_tests": [],
+        "reconnect_status": "NOT TESTED",
+        "reason": "No NeuroBridge BLE device address was supplied."
+    }
+}
